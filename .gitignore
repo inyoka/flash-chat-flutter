@@ -68,3 +68,6 @@
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+android/app/src/profile/gen/co/appbrewery/flash_chat/Manifest.java
+android/app/src/profile/gen/co/appbrewery/flash_chat/R.java
+ios/Flutter/flutter_export_environment.sh
