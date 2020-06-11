@@ -44,6 +44,22 @@ class _WelcomeScreenState extends State<WelcomeScreen>
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
+            Row(children: <Widget>[
+              SizedBox(
+                width: 250,
+                child: ScaleAnimatedTextKit(
+                    onTap: () {
+                      print("Tap Event");
+                    },
+                    text: ["Think", "Build", "Ship"],
+                    textStyle:
+                        TextStyle(fontSize: 70.0, fontFamily: "Canterbury"),
+                    textAlign: TextAlign.end,
+                    alignment:
+                        AlignmentDirectional.topCenter // or Alignment.topLeft
+                    ),
+              ),
+            ]),
             Row(
               children: <Widget>[
                 Hero(
