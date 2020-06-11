@@ -71,3 +71,4 @@
 android/app/src/profile/gen/co/appbrewery/flash_chat/Manifest.java
 android/app/src/profile/gen/co/appbrewery/flash_chat/R.java
 ios/Flutter/flutter_export_environment.sh
+pubspec.lock
