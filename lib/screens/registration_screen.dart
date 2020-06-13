@@ -48,6 +48,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               onChanged: (value) {
                 //Do something with the user input.
               },
+                obscureText: true,
+                textAlign: TextAlign.center,
                 decoration: kTextFieldDecoration.copyWith(
                     hintText: 'Enter your password')),
             SizedBox(
