@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flash_chat/components/rounded_button.dart';
+import 'package:flash_chat/constants.dart';
 
 class LoginScreen extends StatefulWidget {
   static String id = 'login_screen';
@@ -53,7 +54,7 @@ class _LoginScreenState extends State<LoginScreen> {
               title: 'Log In',
               colour: Colors.lightBlueAccent,
               onPressed: () {},
-            )
+            ),
           ],
         ),
       ),
