@@ -58,7 +58,7 @@ class _ChatScreenState extends State<ChatScreen> {
                 Navigator.pop(context);
               }),
         ],
-        title: Text('⚡️Chat'),
+        title: Text(loggedInUser.email.split('@')[0] + ' chatting 🐍'),
         backgroundColor: Colors.lightBlueAccent,
       ),
       body: SafeArea(
